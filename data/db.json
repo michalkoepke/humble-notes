@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "title": "Complete my ninja training",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+      "category": "work",
+      "id": 2
+    },
+    {
+      "title": "Humble Notes todo 1",
+      "details": "popracowac nad tym modalem, zeby mial jakąś funkcjonalność, np formularz do zmiany loginu albo hasla",
+      "category": "work",
+      "id": 3
+    },
+    {
+      "title": "Firestore",
+      "details": "Ustawic firestore - konfiguracja",
+      "category": "work",
+      "id": 4
+    },
+    {
+      "title": "Avatar w sekcji Layout",
+      "details": "Przy wylogowaniu  - wywala sie, sprawdzic dlaczego",
+      "category": "work",
+      "id": 5
+    }
+  ]
+}
