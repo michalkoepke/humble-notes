@@ -78,7 +78,7 @@ export default function Notes() {
   const breakpoints = {
     default: 3,
     1100: 2,
-    700: 1,
+    900: 1,
   };
 
   const classes = useStyles();

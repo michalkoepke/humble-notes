@@ -39,12 +39,12 @@ function ListItemLink(props) {
 }
 
 const menuItems = [
-  {
-    text: "michalkoepke@gmail.com",
-    icon: <MailIcon color="primary" />,
-    path: "",
-    // foo: handleDrawerToggle
-  },
+  // {
+  //   text: "michalkoepke@gmail.com",
+  //   icon: <MailIcon color="primary" />,
+  //   path: "",
+  //   // foo: handleDrawerToggle
+  // },
 
   {
     text: "LinkedIn",
@@ -65,7 +65,7 @@ const SecondMenuItems = [
   {
     text: "Home",
     icon: <HomeOutlinedIcon color="primary" />,
-    path: "/",
+    path: "/home",
   },
 
   {
@@ -131,6 +131,10 @@ const useStyles = makeStyles((theme) => {
       "&:active": {
         color: "white",
       },
+    },
+
+    email: {
+      color: "#b39ddb",
     },
 
     naglowek: {
@@ -250,6 +254,16 @@ export default function Footer() {
                 </Link>
               </ListItem>
             ))}
+
+            <ListItem>
+              <ListItemIcon className={classes.ikona}>
+                <MailIcon color="primary" />
+              </ListItemIcon>
+              <ListItemText
+                primary="michalkoepke@gmail.com"
+                className={classes.email}
+              />
+            </ListItem>
           </Grid>
 
           <Grid
