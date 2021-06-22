@@ -137,14 +137,7 @@ export default function LoginForm() {
 
       <Box p={4}>
         <Typography variant="subtitle1" align="center">
-          <Link
-            to="/forgot-password"
-            variant="inherit"
-            color="secondary"
-            style={{ textDecoration: "none" }}
-          >
-            Forgot Password?
-          </Link>
+          <Link to="/forgot-password">Forgot Password?</Link>
         </Typography>
       </Box>
 
