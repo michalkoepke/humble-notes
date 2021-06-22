@@ -184,15 +184,7 @@ export default function SignupForm() {
       </form>
 
       <Typography className={classes.haveAccount} variant="subtitle1">
-        Already have an account?{" "}
-        <Link
-          to="/login"
-          variant="inherit"
-          color="secondary"
-          style={{ textDecoration: "none" }}
-        >
-          <strong>Log in</strong>
-        </Link>
+        Already have an account? <Link to="/login">Log in</Link>
       </Typography>
     </div>
   );
