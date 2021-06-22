@@ -65,7 +65,7 @@ const SecondMenuItems = [
   {
     text: "Home",
     icon: <HomeOutlinedIcon color="primary" />,
-    path: "/home",
+    path: "/",
   },
 
   {

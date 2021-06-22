@@ -1,4 +1,11 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+
+// import { IndexRoute } from "react-router-dom";
 import Notes from "./pages/Notes";
 import Create from "./pages/Create";
 
@@ -8,6 +15,8 @@ import { responsiveFontSizes } from "@material-ui/core/styles";
 // contexty
 
 import { AuthProvider } from "./Firebase/AuthContext";
+import { useAuth } from "./Firebase/AuthContext";
+
 import { DialogProvider } from "../src/store/DialogContext";
 
 import PrivateRoute from "./components/PrivateRoute";
@@ -62,9 +71,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Router>
           <Switch>
-            <Route exact path="/home">
-              <Home />
-            </Route>
+            <Route exact path="/" component={Home} />
 
             <Route exact path="/signup">
               <Signup />
@@ -80,13 +87,17 @@ function App() {
 
             <DialogProvider>
               <LayoutExp>
-                <PrivateRoute exact path="/notes" component={Notes}>
-                  {/* <Notes /> */}
-                </PrivateRoute>
+                <PrivateRoute
+                  exact
+                  path="/notes"
+                  component={Notes}
+                ></PrivateRoute>
 
-                <PrivateRoute path="/create" component={Create}>
-                  {/* <Create /> */}
-                </PrivateRoute>
+                <PrivateRoute
+                  exact
+                  path="/create"
+                  component={Create}
+                ></PrivateRoute>
               </LayoutExp>
             </DialogProvider>
           </Switch>

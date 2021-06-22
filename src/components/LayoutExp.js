@@ -35,6 +35,8 @@ import MyDialog from "./MyDialog";
 import { useDialog } from "../store/DialogContext";
 import { useAuth } from "../Firebase/AuthContext";
 import Footer from "./Footer";
+import Notes from "../pages/Notes";
+import Create from "../pages/Create";
 
 const drawerWidth = 240;
 
@@ -137,7 +139,7 @@ const menuItems = [
   {
     text: "Home",
     icon: <HomeOutlinedIcon color="primary" />,
-    path: "/home",
+    path: "/",
   },
 ];
 

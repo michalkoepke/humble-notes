@@ -186,7 +186,7 @@ export default function Navi() {
       text: "Home",
       icon: <HomeIcon color="primary" />,
       mobileIcon: <HomeIcon color="primary" />,
-      path: "/home",
+      path: "/",
     },
 
     {
