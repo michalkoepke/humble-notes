@@ -54,7 +54,7 @@ const SecondMenuItems = [
   {
     text: "Home",
     icon: <HomeOutlinedIcon color="primary" />,
-    path: "/",
+    path: "/humble-notes",
   },
 
   {

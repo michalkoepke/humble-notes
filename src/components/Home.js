@@ -9,10 +9,10 @@ import KeyboardArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import React from "react";
 
 import { useHistory } from "react-router";
-import Background from "../components/Background";
-import FooterHome from "../components/FooterHome";
+import Background from "./Background";
+import FooterHome from "./FooterHome";
 
-import Navi from "../components/Navigation/Navi";
+import Navi from "./Navigation/Navi";
 
 import { useAuth } from "../Firebase/AuthContext";
 

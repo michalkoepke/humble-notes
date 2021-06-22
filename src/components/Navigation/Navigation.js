@@ -110,7 +110,7 @@ export default function Navigation() {
     {
       text: "Home",
       icon: <HomeIcon color="primary" />,
-      path: "/",
+      path: "/humble-notes",
     },
 
     {

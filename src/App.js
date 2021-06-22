@@ -23,10 +23,10 @@ import PrivateRoute from "./components/PrivateRoute";
 
 // podstrony
 
-import Home from "./pages/Home";
+import Home from "./components/Home";
 import Signup from "./pages/Signup/Signup";
 import Login from "./pages/Login/Login";
-// import Layout from './components/Layout'
+
 import ForgotPassword from "./pages/ForgotPassword/ForgotPassword";
 import LayoutExp from "./components/LayoutExp";
 
@@ -71,7 +71,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/humble-notes" component={Home} />
 
             <Route exact path="/signup">
               <Signup />
