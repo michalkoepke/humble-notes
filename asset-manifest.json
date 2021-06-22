@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/humble-notes/static/css/main.2e19a469.chunk.css",
-    "main.js": "/humble-notes/static/js/main.262fb166.chunk.js",
-    "main.js.map": "/humble-notes/static/js/main.262fb166.chunk.js.map",
+    "main.js": "/humble-notes/static/js/main.9898248a.chunk.js",
+    "main.js.map": "/humble-notes/static/js/main.9898248a.chunk.js.map",
     "runtime-main.js": "/humble-notes/static/js/runtime-main.9f49d2a8.js",
     "runtime-main.js.map": "/humble-notes/static/js/runtime-main.9f49d2a8.js.map",
     "static/js/2.195fb395.chunk.js": "/humble-notes/static/js/2.195fb395.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/humble-notes/index.html",
     "static/css/main.2e19a469.chunk.css.map": "/humble-notes/static/css/main.2e19a469.chunk.css.map",
     "static/js/2.195fb395.chunk.js.LICENSE.txt": "/humble-notes/static/js/2.195fb395.chunk.js.LICENSE.txt",
-    "static/js/main.262fb166.chunk.js.LICENSE.txt": "/humble-notes/static/js/main.262fb166.chunk.js.LICENSE.txt",
+    "static/js/main.9898248a.chunk.js.LICENSE.txt": "/humble-notes/static/js/main.9898248a.chunk.js.LICENSE.txt",
     "static/media/HumbleLogoText.48843ece.svg": "/humble-notes/static/media/HumbleLogoText.48843ece.svg",
     "static/media/HumbleNotesBG.7f12e936.svg": "/humble-notes/static/media/HumbleNotesBG.7f12e936.svg"
   },
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9f49d2a8.js",
     "static/js/2.195fb395.chunk.js",
     "static/css/main.2e19a469.chunk.css",
-    "static/js/main.262fb166.chunk.js"
+    "static/js/main.9898248a.chunk.js"
   ]
 }
